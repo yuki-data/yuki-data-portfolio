@@ -36,7 +36,45 @@
     <div class="content container my-3" id="apps">
       <h1 class="text-center p-3 text-secondary">Works</h1>
       <section class="row py-3 align-items-center">
-        <div class="img-container col-sm-6 order-sm-1 pb-5">
+        <div class="img-container col-sm-6 pb-5">
+          <a href="https://github.com/yuki-data/chat-space"><img src="https://gyazo.com/a5642f9659736c81588b072d9b9372a9.gif" alt="" class="img-fluid"></a>
+        </div>
+        <article class="col-sm-6">
+          <a href="https://github.com/yuki-data/chat-space"><h2>chatspace</h2></a>
+          <p>chatspaceはグループチャットアプリです。画像とテキストの投稿ができ、グループに登録したメンバーのみがチャットを閲覧できます。</p>
+          <p>詳しい使い方はgithubでスクリーンショット付きで示しています。</p>
+          <div class="description">
+            <h4>使用した技術、言語、ツールなど</h4>
+            <ul>
+              <li>言語</li>
+              <ul>
+                <li>サーバーサイド: Ruby</li>
+                <li>フロントエンド: SASS, HTML (HAML), JavaScript (jQuery)</li>
+              </ul>
+              <li>アプリケーションフレームワーク: Ruby on rails</li>
+              <li>インフラ: AWS(EC2, S3)</li>
+              <li>webサーバー: nginx</li>
+              <li>アプリケーションサーバー: unicorn</li>
+              <li>データベース: MySQL</li>
+            </ul>
+            <h4>実装内容</h4>
+            <ul>
+              <li>HAMLとSASSでのフロント実装</li>
+              <li>jQueryによるメッセージの非同期通信</li>
+              <li>jQueryによるインクリメンタルサーチ機能</li>
+              <li>devise (認証用gem)によるユーザー登録・ログイン機能</li>
+              <li>carrierwaveによる画像のアップロード</li>
+              <li>fogによるAWS S3への画像のアップロード</li>
+              <li>capistranoによる自動デプロイ</li>
+            </ul>
+          </div>
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <a class="btn bg-secondary text-white border-white" href="https://github.com/yuki-data/chat-space">Github</a>
+          </div>
+        </article>
+      </section>
+      <section class="row py-3 align-items-center">
+        <div class="img-container col-sm-6 pb-5">
           <a href="https://twitter-trending-topics.herokuapp.com/"><img src="images/twitter-trend-ranking.jpg" alt="" class="img-fluid"></a>
         </div>
         <article class="col-sm-6">
