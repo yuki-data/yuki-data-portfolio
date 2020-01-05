@@ -6,3 +6,7 @@ body {
   background-image: url(../images/polygon-background1-preview.jpg);
   margin-top: 3.5rem;
 }
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
