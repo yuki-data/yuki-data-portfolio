@@ -2,14 +2,6 @@ body {
   font-family: verdana;
 }
 
-.navbar {
-  position: fixed;
-  width: 100%;
-  height: 3.5rem;
-  top: 0;
-  z-index: 1;
-}
-
 .header {
   background-image: url(../images/polygon-background1-preview.jpg);
   margin-top: 3.5rem;
