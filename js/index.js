@@ -14,4 +14,8 @@ $(document).ready(function() {
       300
     );
   });
+
+  $("#bootstrap-navbar").on("mouseleave", function() {
+    $("#navbarNav").removeClass("show");
+  });
 });
