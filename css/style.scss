@@ -1,0 +1,44 @@
+@mixin social-icon($bg-color: #ffffff) {
+  background-color: $bg-color;
+  font-size: 3rem;
+  line-height: 2.6rem;
+  border-radius: 20%;
+}
+
+body {
+  font-family: verdana;
+}
+
+.header {
+  background-image: url(../images/polygon-background1-preview.jpg);
+  margin-top: 3rem;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.social-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  &__item {
+    &:not(:first-of-type) {
+      margin-left: 1rem;
+    }
+    a {
+      display: block;
+    }
+  }
+  &__icon {
+    &--github {
+      @include social-icon();
+      color: rgb(50, 59, 50);
+    }
+    &--twitter {
+      @include social-icon();
+    }
+  }
+}
